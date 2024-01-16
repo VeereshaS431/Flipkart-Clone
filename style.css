@@ -1,0 +1,1005 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+/* nav-bar */
+
+.nav {
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    background-color: white;
+
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.search-bar {
+    width: 700px;
+    height: 40px;
+    /* border: 2px solid black; */
+    /* padding: 20px; */
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+.fa-magnifying-glass {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#search {
+    width: 670px;
+    /* margin-top: 5px; */
+    padding: 8px;
+    border: none;
+    background-color: aliceblue;
+
+}
+
+#search:focus {
+    border: none;
+    border-color: none;
+}
+
+.dropdown {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.btn {
+    background-color: white !important;
+    color: black !important;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(13, 13, 251) !important;
+    color: white !important;
+}
+
+.sign-up {
+    margin-left: 50px;
+}
+
+.log-btn {
+    margin-left: 10px;
+}
+
+.dropdown-link:hover {
+    background-color: rgb(194, 194, 218) !important;
+
+}
+
+.cart {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.seller {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.help-link {
+    margin-left: 10px;
+
+}
+
+
+
+/* Collection-section */
+
+.collection {
+    width: 98%;
+    height: 130px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+}
+
+.collection-1 {
+    /* border: 1px solid black; */
+    width: 130px;
+    height: 100px;
+    text-align: center;
+    /* margin-top: 15px; */
+}
+
+.list {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+/* Carousel */
+
+.carousel {
+    margin-top: 20px;
+    width: 98%;
+    margin-left: 15px;
+}
+
+.carousel-control-prev {
+    /* border: 1px solid black !important; */
+    width: 40px !important;
+    height: 80px !important;
+    margin-top: 80px;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(149, 135, 135);
+    opacity: 1 !important;
+    color: black !important;
+    font-size: 10px !important;
+}
+
+.carousel-control-prev:hover {
+    color: rgb(122, 28, 28) !important;
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    color: rgb(87, 52, 52) !important;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-control-next {
+    /* border: 1px solid black !important; */
+    width: 40px !important;
+    height: 80px !important;
+    margin-top: 80px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(149, 135, 135);
+    opacity: 1 !important;
+    color: black !important;
+    font-size: 10px !important;
+}
+
+.carousel-control-next:hover {
+    color: rgb(122, 28, 28) !important;
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    color: rgb(87, 52, 52) !important;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-indicators {
+    width: 90px;
+    height: 15px;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(61, 53, 53);
+    opacity: 0.7;
+}
+
+.small-icon {
+    width: 8px !important;
+    height: 8px !important;
+    margin-top: -6px;
+    border-radius: 50%;
+    background-color: white !important;
+}
+
+
+
+/* bank offer- section-2 */
+
+.section-2 {
+    width: 98%;
+    height: 120px;
+    /* border: 1px solid black; */
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* mobile section- section-3 */
+
+.section-3 {
+    display: flex;
+    width: 98%;
+}
+
+.mobile-section {
+    width: 80%;
+    height: 380px;
+    /* border: 1px solid rgb(147, 138, 138); */
+    margin-left: 15px;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.icon {
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(12, 12, 235, 0.942);
+    position: relative;
+    left: 1100px;
+    top: -30px;
+
+}
+
+.fa-greater-than {
+
+    margin-left: 8px;
+    color: white;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box-row {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 250px;
+    gap: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    overflow-x: scroll;
+
+}
+
+.box {
+
+    border: 1px solid rgb(185, 172, 172);
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+.box-1 {
+    margin-left: 20px;
+}
+
+.photos {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+
+}
+
+.mobile-img:hover {
+    width: 155px;
+    height: 155px;
+
+}
+
+.section-3-right {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+/* section-4 images */
+
+.section-4 {
+    width: 98%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+
+.section-4-img {
+    width: 32%;
+    margin-left: 5px;
+}
+
+
+
+/* top deals */
+
+.box-row1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 250px;
+    gap: 10px;
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    height: 300px;
+    overflow-x: scroll;
+
+}
+
+.top-deal-section {
+    width: 98%;
+    height: 380px;
+    /* border: 1px solid rgb(147, 138, 138); */
+    margin-left: 15px;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.deal-icon {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(33, 33, 196);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 1400px;
+}
+
+/* collection section */
+
+.section-6{
+    width: 98%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    gap: 10px;
+    
+}
+.section-6-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.end-season{
+    width: 500px;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.gift-box-row{
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+    margin-left: 15px;
+    margin-top: 10px;            
+    /* border: 1px solid black; */
+}
+.gift-box{
+    border: 1px solid rgb(183, 181, 181);
+    border-radius: 5px;
+}
+.gift-photo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.offer-image{
+    width:500px;
+    height:600px;
+}
+.gift-icon{
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: rgb(33, 33, 245);
+    position: relative;
+    top: -20px;
+    left: 400px;
+}
+
+
+/* footer - section */
+
+.footer{
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 20px;
+    
+}
+
+.footer-top{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.item{
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid white; */
+    
+}
+
+.heading{
+    color: rgb(146, 135, 135);
+    margin-left: 32px;
+}
+ul{
+    margin-top: 10px;
+}
+
+li{
+    color: white;
+    list-style-type: none;
+    font-size: 13px;
+}
+.mail{
+    border-left: 1px solid white;
+    height: 200px;
+}
+
+.footer-bottom{
+    border-top: 1px solid white;
+}
+.footer-list{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    
+    .nav {
+        /* margin-top: 10px; */
+        width: 1300px;
+        height: 80px;
+        /* border: 2px solid black; */
+        background-color: white;
+        
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .search-bar {
+        width: 500px;
+        height: 40px;
+        /* border: 2px solid black; */
+        /* padding: 20px; */
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 7px;
+        background-color: aliceblue;
+    }
+
+    #search {
+        width: 470px;
+        /* margin-top: 5px; */
+        padding: 8px;
+        border: none;
+        background-color: aliceblue;
+    
+    }
+
+    .mobile-section {
+        width: 76%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .collection {
+        width: 97%;
+        height: 130px;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: white;
+    }
+
+    .carousel {
+        margin-top: 20px;
+        width: 97%;
+        margin-left: 15px;
+    }
+
+    .section-4 {
+        width: 96%;
+        height: 250px;
+        /* border: 1px solid black; */
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        background-color: white;
+    }
+
+    .top-deal-section {
+        width: 97%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .section-6{
+        width: 90%;
+        height: 600px;
+        /* border: 1px solid black; */
+        margin-top: 20px;
+        margin-left: 15px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .offer-image{
+        width:350px;
+        height:600px;
+    }
+
+    .footer-list{
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .deal-icon {
+        width: 25px;
+        height: 25px;
+        background-color: rgb(33, 33, 196);
+        border-radius: 50%;
+        position: relative;
+        top: -30px;
+        left: 1200px;
+    }
+
+    .icon {
+        /* border: 1px solid black; */
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: rgba(12, 12, 235, 0.942);
+        position: relative;
+        left: 900px;
+        top: -30px;
+    
+    }
+
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+   
+    .nav {
+        /* margin-top: 10px; */
+        width: 1300px;
+        height: 80px;
+        /* border: 2px solid black; */
+        background-color: white;
+        
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .search-bar {
+        width: 500px;
+        height: 40px;
+        /* border: 2px solid black; */
+        /* padding: 20px; */
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 7px;
+        background-color: aliceblue;
+    }
+
+    #search {
+        width: 470px;
+        /* margin-top: 5px; */
+        padding: 8px;
+        border: none;
+        background-color: aliceblue;
+    
+    }
+
+    .mobile-section {
+        width: 76%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .collection {
+        width: 97%;
+        height: 130px;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: white;
+    }
+
+    .carousel {
+        margin-top: 20px;
+        width: 97%;
+        margin-left: 15px;
+    }
+
+    .section-4 {
+        width: 96%;
+        height: 250px;
+        /* border: 1px solid black; */
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        background-color: white;
+    }
+
+    .top-deal-section {
+        width: 97%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .section-6{
+        width: 90%;
+        height: 600px;
+        /* border: 1px solid black; */
+        margin-top: 20px;
+        margin-left: 15px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .offer-image{
+        width:350px;
+        height:600px;
+    }
+
+    .footer-list{
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .deal-icon {
+        width: 25px;
+        height: 25px;
+        background-color: rgb(33, 33, 196);
+        border-radius: 50%;
+        position: relative;
+        top: -30px;
+        left: 1200px;
+    }
+
+    .icon {
+        /* border: 1px solid black; */
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: rgba(12, 12, 235, 0.942);
+        position: relative;
+        left: 900px;
+        top: -30px;
+    
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    
+    .nav {
+        /* margin-top: 10px; */
+        width: 1300px;
+        height: 80px;
+        /* border: 2px solid black; */
+        background-color: white;
+        
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .search-bar {
+        width: 500px;
+        height: 40px;
+        /* border: 2px solid black; */
+        /* padding: 20px; */
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 7px;
+        background-color: aliceblue;
+    }
+
+    #search {
+        width: 470px;
+        /* margin-top: 5px; */
+        padding: 8px;
+        border: none;
+        background-color: aliceblue;
+    
+    }
+
+    .mobile-section {
+        width: 76%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .collection {
+        width: 97%;
+        height: 130px;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: white;
+    }
+
+    .carousel {
+        margin-top: 20px;
+        width: 97%;
+        margin-left: 15px;
+    }
+
+    .section-4 {
+        width: 96%;
+        height: 250px;
+        /* border: 1px solid black; */
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        background-color: white;
+    }
+
+    .top-deal-section {
+        width: 97%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .section-6{
+        width: 90%;
+        height: 600px;
+        /* border: 1px solid black; */
+        margin-top: 20px;
+        margin-left: 15px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .offer-image{
+        width:350px;
+        height:600px;
+    }
+
+    .footer-list{
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .deal-icon {
+        width: 25px;
+        height: 25px;
+        background-color: rgb(33, 33, 196);
+        border-radius: 50%;
+        position: relative;
+        top: -30px;
+        left: 1200px;
+    }
+
+    .icon {
+        /* border: 1px solid black; */
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: rgba(12, 12, 235, 0.942);
+        position: relative;
+        left: 900px;
+        top: -30px;
+    
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .nav {
+        /* margin-top: 10px; */
+        width: 1300px;
+        height: 80px;
+        /* border: 2px solid black; */
+        background-color: white;
+        
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .search-bar {
+        width: 500px;
+        height: 40px;
+        /* border: 2px solid black; */
+        /* padding: 20px; */
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 7px;
+        background-color: aliceblue;
+    }
+
+    #search {
+        width: 470px;
+        /* margin-top: 5px; */
+        padding: 8px;
+        border: none;
+        background-color: aliceblue;
+    
+    }
+
+    .mobile-section {
+        width: 76%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .collection {
+        width: 97%;
+        height: 130px;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: white;
+    }
+
+    .carousel {
+        margin-top: 20px;
+        width: 97%;
+        margin-left: 15px;
+    }
+
+    .section-4 {
+        width: 96%;
+        height: 250px;
+        /* border: 1px solid black; */
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        background-color: white;
+    }
+
+    .top-deal-section {
+        width: 97%;
+        height: 380px;
+        /* border: 1px solid rgb(147, 138, 138); */
+        margin-left: 15px;
+        margin-top: 20px;
+        background-color: white;
+    
+    }
+
+    .section-6{
+        width: 90%;
+        height: 600px;
+        /* border: 1px solid black; */
+        margin-top: 20px;
+        margin-left: 15px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .offer-image{
+        width:350px;
+        height:600px;
+    }
+
+    .footer-list{
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .deal-icon {
+        width: 25px;
+        height: 25px;
+        background-color: rgb(33, 33, 196);
+        border-radius: 50%;
+        position: relative;
+        top: -30px;
+        left: 1200px;
+    }
+
+    .icon {
+        /* border: 1px solid black; */
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: rgba(12, 12, 235, 0.942);
+        position: relative;
+        left: 900px;
+        top: -30px;
+    
+    }
+
+}
+
+
