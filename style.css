@@ -6,7 +6,10 @@
 body {
     background-color: aliceblue;
 }
-
+body, html{
+    display:flex;
+    justify-content: center;
+}
 
 /* nav-bar */
 
